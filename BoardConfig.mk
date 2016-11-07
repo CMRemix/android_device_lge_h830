@@ -21,6 +21,7 @@ TARGET_OTA_ASSERT_DEVICE := g5,h1,h830
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_h830_defconfig
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=20M@0-0xffffffff
 
 # inherit from the proprietary version
 -include vendor/lge/h830/BoardConfigVendor.mk
