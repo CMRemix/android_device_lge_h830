@@ -19,11 +19,11 @@
 
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
-    <!-- Values for TELUS GPS configuration -->
+    <!-- Values for GPS configuration (Bell) -->
     <string-array translatable="false" name="config_gpsParameters">
-        <item>SUPL_HOST=supl.telusmobility.com</item>
+        <item>SUPL_HOST=supl.google.com</item>
         <item>SUPL_PORT=7275</item>
         <item>XTRA_SERVER_1=http://xtrapath1.izatcloud.net/xtra3grc.bin</item>
         <item>XTRA_SERVER_2=http://xtrapath2.izatcloud.net/xtra3grc.bin</item>
@@ -39,5 +39,5 @@
         <item>GPS_LOCK=0</item>
         <item>SUPL_ES=0</item>
     </string-array>
-</resources>
 
+</resources>
